@@ -1,0 +1,44 @@
+<html>
+<body bgcolor="#AAADEA"><center>
+<form name="calculator">
+<h2><font face="Papyrus">Ghil's Calculator</font></h2>
+<table border="2" width="300" height="300" bgcolor="lavander">
+<tr>
+<td><input type="text" name="text" size="50"></td>
+</tr>
+<tr><td><center>
+<input type="button" value="EQUALS" onClick="calculator.text.value = eval(calculator.text.value)"></td>
+</td>
+</tr>
+<tr>
+<td><center>
+<input type="button" value="7" onClick="calculator.text.value += '7'">&nbsp
+<input type="button" value="8" onClick="calculator.text.value += '8'">&nbsp
+<input type="button" value="9" onClick="calculator.text.value += '9'">&nbsp
+<input type="button" value="+" onClick="calculator.text.value += '+'"></td>&nbsp
+</tr>
+<tr>
+<td><center>
+<input type="button" value="4" onClick="calculator.text.value += '4'">&nbsp
+<input type="button" value="5" onClick="calculator.text.value += '5'">&nbsp
+<input type="button" value="6" onClick="calculator.text.value += '6'">&nbsp
+<input type="button" value="-" onClick="calculator.text.value += '-'"></td>&nbsp
+</tr>
+<tr>
+<td><center>
+<input type="button" value="1" onClick="calculator.text.value += '1'">&nbsp
+<input type="button" value="2" onClick="calculator.text.value += '2'">&nbsp
+<input type="button" value="3" onClick="calculator.text.value += '3'">&nbsp
+<input type="button" value="/" onClick="calculator.text.value += '/'"></td>
+</tr>
+
+<tr>
+<td><center>
+<input type="button" value="." onClick="calculator.text.value += '.'">&nbsp
+<input type="button" value="0" onClick="calculator.text.value += '0 '">&nbsp
+<input type="reset" value="c" >&nbsp
+<input type="button" value="*" onClick="calculator.text.value += '* '"></tr>&nbsp
+</table>
+</form></center>
+</body>
+</html>
